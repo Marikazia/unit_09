@@ -5,23 +5,16 @@ import { Component } from "react";
 class PlaceholderPostHook extends Component {
 	constructor() {
 		super();
-		fetch('https://jsonplaceholder.typicode.com/users/1/posts')
-			.then(response => response.json())
-			.then(data => {
-				console.log(data);
-				this.state = {
-					data: []
-				}
-			})
+		this.state = { data: [] };
 	}
 
 	componentDidMount() {
 		fetch('https://jsonplaceholder.typicode.com/users/1/posts')
-		.then(response => response.json())
-		.then(data => {
-			console.log(data);
-			this.setState({ data });
-		});
+			.then(response => response.json())
+			.then(data => {
+				console.log(data);
+				this.setState({ data });
+			});
 	}
 
 	render() {
