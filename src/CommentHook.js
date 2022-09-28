@@ -26,16 +26,12 @@ export default function CommentHook() {
 	return (
 		<>
 			<section>
-				{/* {data.map(item => ( */}
-					<select onChange={selectHandler}>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-					</select>,
-
-				{/* ))} */}
-
+				<select onChange={selectHandler}>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</select>,
 				<div>
 					{state.map(item => (
 						<section key={item.id}>
@@ -44,29 +40,8 @@ export default function CommentHook() {
 						</section>
 					))}
 				</div>
-
-				{/* <div>
-					{data.map((el, index) => (
-						<section key={el.id}>
-							<p><b>{index + 1}. {el.email}</b></p>
-							<p>{el.body}</p>
-						</section>
-					))}
-				</div> */}
-
-			</section>
-
-
-			{/* <select onChange={this.event}>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-			</select> */}
-	
+			</section>	
 		</>
 	)
 
 }
-
-// export default CommentHook
