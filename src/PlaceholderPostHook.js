@@ -57,11 +57,11 @@ export default function PlaceholderPostHook() {
 			<section>
 				{data.map(item => (
 					<section key={item.id}>
-						<h2> {item.id}. {item.title} </h2>,
-						<p> {item.body} </p>,
+						<h2> {item.id}. {item.title} </h2>
+						<p> {item.body} </p>
 						<hr></hr>
 					</section>
-				))};
+				))}
 			</section>
 		</>
 	)
