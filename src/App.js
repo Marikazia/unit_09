@@ -13,8 +13,8 @@ export default function App() {
 		
 			{/* <Test1/> */}
 			{/* console.log(this.state) */}
-{/* 
-			<PlaceholderPostHook /> */}
+
+			<PlaceholderPostHook />
 			<CommentHook />
     </>
   );
