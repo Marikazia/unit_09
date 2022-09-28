@@ -53,30 +53,14 @@ export default function PlaceholderPostHook() {
 
 	return (
 		<>
-			<section>
+			{/* <section> */}
 				{data.map(item => (
-					<h2> {item.id} {item.title} </h2>,
-					<p> {item.body} </p>
-				))}
-			</section>
-
-			{/* <section>
-				<h2>
-					{data.map(item => (
-						{item.id} {item.title}
-					))}
-				</h2>
-
-
-			</section> */}
-
-
-			{/* {this.state.data.map((el, index) => (
-				<section key={el.id}>
-					<h2>{index+1}. {el.title}</h2>
-					<p>{el.body}</p>
-				</section>
-			))} */}
+					<section key={item.id}>
+						<h2> {item.id}. {item.title} </h2>,
+						<p> {item.body} </p>
+					</section>
+				))};
+			{/* </section> */}
 		</>
 	)
 }
