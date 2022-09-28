@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Component } from "react";
+// import { Component } from "react";
 
 //Class style
 // export default class PlaceholderPostHook extends Component {
@@ -37,7 +37,8 @@ import { Component } from "react";
 // }
 
 
-//Func style
+// Func style
+
 export default function PlaceholderPostHook() {
 	const [data, setData] = useState([]);
 
