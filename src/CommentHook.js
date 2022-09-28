@@ -21,7 +21,7 @@ export default function CommentHook() {
 					<option value="2">2</option>
 					<option value="3">3</option>
 					<option value="4">4</option>
-				</select>,
+				</select>
 				<div>
 					{state.map(item => (
 						<section key={item.id}>
