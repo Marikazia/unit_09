@@ -3,16 +3,6 @@ import React, { useState, useEffect, Component } from "react";
 export default function CommentHook() {
 	const [state, setState] = useState([]);
 
-	// useState((event) => {
-	// 	fetch('https://jsonplaceholder.typicode.com/posts/'+ event.target.value + '/comments')
-	// 		.then(response => response.json())
-	// 		.then(data => {
-	// 			console.log(data);
-	// 			// this.setState({ data });
-	// 			setData( data );
-	// 		});
-	// }, []);
-
 	function selectHandler(event) {
 		console.log(event.target.value);
 		fetch("https://jsonplaceholder.typicode.com/posts/"+ event.target.value +"/comments")
