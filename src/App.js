@@ -3,6 +3,7 @@ import './App.css';
 import CommentHook from './CommentHook';
 import PlaceholderPostHook from './PlaceholderPostHook';
 // import Test1 from './Test1';
+import Comment2Hook from './Comment2Hook';
 
 export default function App() {
 
@@ -16,6 +17,8 @@ export default function App() {
 
 			<PlaceholderPostHook />
 			<CommentHook />
+			<Comment2Hook />
+			
     </>
   );
 
