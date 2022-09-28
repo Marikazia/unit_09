@@ -15,7 +15,7 @@ export default function App() {
 			{/* console.log(this.state) */}
 
 			<PlaceholderPostHook />
-			<CommentHook />
+			{/* <CommentHook /> */}
     </>
   );
 
