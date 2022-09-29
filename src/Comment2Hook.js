@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Component } from "react";
 
+
 export default function Comment2Hook() {
 	const [state, setState] = useState([]);
 
