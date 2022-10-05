@@ -29,7 +29,7 @@ export default function CommentsListHook() {
 	return (
 		<div>
 			<div>
-				<button onClick={onlyEven}>Only even comments</button>
+				<button onClick={selectHandler}>Only even comments</button>
 			</div>
 			{props.map((el, index) => (
 				<section key={el.id}>
