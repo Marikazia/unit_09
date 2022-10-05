@@ -28,16 +28,15 @@ export default function CommentsListHook() {
 
 	return (
 		<div>
-			<p>Choose post ID:</p>
-			<select onChange={this.selectHandler}>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-			</select>
 			<div>
-			<CommentsListHook data={this.state.data}/>
+				<button onClick={onlyEven}>Only even comments</button>
 			</div>
+			{props.map((el, index) => (
+				<section key={el.id}>
+					<p><b>{index + 1}. {el.email}</b></p>
+					<p>{el.body}</p>
+				</section>
+			))}
 		</div>
 	)
 }
