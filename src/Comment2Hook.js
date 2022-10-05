@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Component } from "react";
-
+import CommentsListHook from "./CommentsListHook";
 
 export default function Comment2Hook() {
 	const [state, setState] = useState([]);
