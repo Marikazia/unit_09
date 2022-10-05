@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Comment extends Component {
+class CommentExample extends Component {
     constructor() {
         super();
         this.state = { data: [] };
@@ -41,4 +41,4 @@ class Comment extends Component {
     }
 }
 
-export default Comment;
+export default CommentExample;
