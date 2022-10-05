@@ -16,9 +16,9 @@ export default function App() {
 			{/* <Test1/> */}
 			{/* console.log(this.state) */}
 
-			{/* <PlaceholderPostHook />
-			<CommentHook /> */}
-			{/* <Comment2Hook /> */}
+			{/* <PlaceholderPostHook /> */}
+			{/* <CommentHook /> */}
+			<Comment2Hook />
 			<CommentsListHook />
     </>
   );
