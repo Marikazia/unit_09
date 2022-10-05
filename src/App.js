@@ -18,7 +18,7 @@ export default function App() {
 
 			{/* <PlaceholderPostHook />
 			<CommentHook /> */}
-			<Comment2Hook />
+			{/* <Comment2Hook /> */}
 			<CommentsListHook />
     </>
   );
