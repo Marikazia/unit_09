@@ -25,7 +25,7 @@ export default function CommentsListHook(props) {
 	// 			setState( state );
 	// 	});
 	// }
-
+	console.log(props);
 	return (
 		<div>
 			{/* <div>
